@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Liste des eleves/title>
+<title>Insert title here</title>
 </head>
 <body>
-	<p>not yet implemented</p>
+<p>not yet implemented classe</p>
 </body>
 </html>

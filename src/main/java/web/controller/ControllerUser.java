@@ -97,7 +97,7 @@ public class ControllerUser extends HttpServlet {
 		}
 		
 		
-		User user = new User(nom, prenom, grade, email, motDePass, rMotDePass);
+		User user = new User(null, nom, prenom, grade, email, motDePass, rMotDePass);
 		
 		userList.add(user); 
 		 

@@ -27,14 +27,14 @@ public class ControllerEleve extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-
+ 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		 response.setContentType("text/html; charset=UTF-8");
 
-	        List<User> userList = ObjectsListe.userList;
+	        List<Eleve> userList = ObjectsListe.studentList;
 
 	        String page = request.getParameter("page");
 	        String action = request.getParameter("action");

@@ -123,13 +123,13 @@
             </a>
         </li>
         <li>
-            <a href="${pageContext.request.contextPath}/ControllerUser?page=prof"
+            <a href="${pageContext.request.contextPath}/ControllerUser?page=classeContent"
                class="${page == 'classe' ? 'active' : ''}">
                 Classes
             </a>
         </li>
         <li>  
-            <a href="${pageContext.request.contextPath}/ControllerUser?page=prof"
+            <a href="${pageContext.request.contextPath}/ControllerUser?page=matiere"
                class="${page == 'matiere' ? 'active' : ''}">
                 Matières
             </a>
